@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <Script src="https://kit.fontawesome.com/fb537f619a.js"></Script>
+    <!-- <link rel="stylesheet" href="all.min.css"> -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1>ROCK PAPER SCISSORS</h1>
+            <button id="restart" class="restart-btn">Restart Game</button>
+            <div id="score" class="score">
+                <p>Player: <span id="playerScore"> 0 </span></p>
+                <p>Draw: <span id="draw"> 0 </span></p>
+                <p>Computer: <span id="computerScore"> 0 </span></p>
+            </div>
+        </header>
+        <h2>Make Your Selection</h2>
+        <div class="choices">
+            <div>
+                <i id="rock" class="choice fas fa-hand-rock fa-10x"></i>
+                <h3>ROCK</h3>
+            </div>
+            <div>
+                <i id="paper" class="choice fas fa-hand-paper fa-10x"></i>
+                <h3>PAPER</h3>
+            </div>
+            <div>
+                <i id="scissors" class="choice fas fa-hand-scissors fa-10x"></i>
+                <h3>SCISSORS</h3>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="model">
+        <div id="result" class="model-content">
+            <h1 class="text-win">You Win</h1>
+            <i class="fas fa-hand-rock fa-10x"></i>
+            <p>Computer choose rock</p>
+        </div>
+    </div>
+
+
+
+
+    
+
+    <script src="main.js"></script>
+
+</body>
+</html>
